@@ -16,5 +16,14 @@
   <li>
     <h2><a target="_blank" href="http://angularjs.blogspot.ca/">Angular blog</a></h2>
   </li>
+  <li>{{ myUrl }}</li>
 </ul>
+
+<md-checkbox>Check me!</md-checkbox>
+
+ <a [routerLink]="['/']">Home</a>
+    <a [routerLink]="['/about']">About</a>
+    <div class="outer-outlet">
+      <router-outlet></router-outlet>
+    </div>
 
